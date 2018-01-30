@@ -1,0 +1,55 @@
+what makes the DCP strong?
+Adaptibility, the ability to change both significantly and easily
+How can such a program be designed?
+It should be founded on an API capable of handling all activities in as few atomic functions as possible
+
+So what is the fundamental thing that a p2p program does?
+It converses, talking and listening.
+
+What qualities does a good conversationalist have?
+At a mechanical level, they must be able to speak clearly and concisely. 
+They must be understood even when conversation is difficult to hear.
+They must be able to initiate a conversation in difficult circumstances.
+They must be able to listen and understand clearly and quickly.
+They should be heard by precisely, often exclusively, by who they want to listen.
+
+Beyond the mechanical, they must be mutualistic. All involved should enjoy or otherwise benefit from the conversation
+They should speak only when there is something to be gained but speak often.
+They should self improve and improve others' conversational abilities through the act of conversing
+
+They should remember others
+
+2018/12/4
+
+Before the mind of the thing can be put into play it needs a good voice and good hearing.
+In other words it needs simultaneous open ability and general p2p capacity.
+We have the code already, lets make something to fasten it to
+
+The next step is the language of the thing, but to design that we must first design the mind
+
+So we'll do that first:
+So the thing may run different apps, therefore it should mark its communication based on the app involved
+Sounds simple...
+But that message may be passed through a cryptography program, and so it may be marked up by several different programs.
+In that case the message should change hands between programs as it is peeled away
+
+Apps may rely on different apps to provide some service, I do not mean a library. Two stand-alone apps may be interdependant. Such as games relying on a lobby manager.
+
+So this is a question of scope.
+Does the DCP manage the compatibility of apps, does it keep a universal list of users, or is all of that some other app's job? One could declare the p2p communicator a sort of app as well and the DCP exists only as a sort of protocol to couple apps if at all.
+
+What is the DCP?
+More over, what is this clash in design philosophy I'm trying to deal with?
+The more adaptable you make something, the less useful it tends to become in any specific situation.
+So as much as I love adaptability, it must still be tempered with some degree of specialization
+In other words, score multipliers are useless without base points
+
+Back to the DCP.
+It should do all the P2P comm, it should move data to appropriate apps based on its markings,
+what that actually means is it should keep a dictionary of which apps get piped where (so outsiders can choose which of your apps they will use)
+It should maintain a list of peers
+It should really only ever need one encryption system data is piped through, one path for signed data and one for anonymous
+Lastly it needs a cryptocratic system for supporting the network, rewarding supporters and punishing free-riders.
+This system would make use of something like a cryptocurrency as well as a rules system for verifying fair play and keeping peers aware of one another.
+This system may need to interface with apps in some fashion, to agree to enforce their rules as well.
+
